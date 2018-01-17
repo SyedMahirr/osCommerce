@@ -10,9 +10,12 @@ Scenario: Positive
 
 	Given OS-Commerce Webpage 
 	When click on Hardware
-	And Click on Mice 
+	And Click on Mice
+	And CLick on BuyNow 
 	And Selecting USB
 	And Click on Add to Cart
+	And Click on Checkout 
+	And Loginto the Account
 	And Remove Item that was previously there
 	And Choose the Best Way shipping 
 	And Add Comments 
