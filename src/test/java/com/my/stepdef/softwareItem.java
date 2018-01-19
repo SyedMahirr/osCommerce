@@ -11,7 +11,7 @@ import cucumber.api.java.en.When;
 
 public class softwareItem {
 
-	static WebDriver driver;
+	WebDriver driver;
 	
 	@Given("^OS-Commerce Webpage\\.$")
 	public void os_Commerce_Webpage() throws Throwable {
