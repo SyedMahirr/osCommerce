@@ -8,13 +8,8 @@ public class testNGtestRunner {
 	@CucumberOptions(
 	        features = "Features",
 	        glue="com.my.stepdef",
-	        tags= //{"@creating_An_Account"}
-	        //{"@log_In"}
-	    //{"@Hardware_Items"}
-	    //{"@software_Action"}
-	   // {"@Quick_find_Item_Read_Review"}
-	    //{"@contact_us_form"}
-	    {"@userCheckingOrder"}
+	        tags= {"@Log-In, @addNewUser "}
+	  
 	        )
 
 	public class TestRunner extends AbstractTestNGCucumberTests{}
